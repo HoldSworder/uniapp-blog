@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/read/read",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/archives/archives",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/iframe/blog",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/iframe/note",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/iframe/github",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color":"#aaa",
+		"borderStyle": "black",
+		"selectedColor": "#1AAD19",
+		"backgroundColor":"#333",
+		"blurEffect": true,
+		"fontSize": "14px",
+		"iconWidth": "14px",
+		"list": [{
+			"pagePath": "pages/archives/archives",
+			"text": "归档",
+			"iconPath":"static/icon/归档.png",
+			"selectedIconPath": "static/icon/归档s.png"
+		},{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath":"static/icon/首页.png",
+			"selectedIconPath": "static/icon/首页s.png"
+		},{
+			"pagePath": "pages/about/about",
+			"text": "我的",
+			"iconPath":"static/icon/我的.png",
+			"selectedIconPath":"static/icon/我的s.png"
+		}]
+	}
+}
