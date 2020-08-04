@@ -8,17 +8,20 @@
 			</block>
 			<block slot="content">{{title}}</block>
 		</cu-custom>
-		 <u-parse :content="info" class="parse" />
+		 <!-- <u-parse :content="info" class="parse" /> -->
+		 <jyf-parser :html="info"></jyf-parser>
   </div>
 </template>
 
 <script>
 import uParse from '@/components/gaoyia-parse/parse.vue'
+import jyfParser  from '@/components/jyf-parser/jyf-parser'
 import marked from 'marked'
 
 export default {
 	components: {
-		uParse
+		uParse,
+		jyfParser
 	},
 		
 	data() {

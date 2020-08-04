@@ -3,6 +3,7 @@
 		<page-head title="首页"></page-head>
 		
 		<div class="content">
+			<button open-type="launchApp" app-parameter="wechat" @click="test" :binderror="launchAppError">打开APP</button>
 			<div v-for="(item, index) of contentData"
 					 :key="index">
 				<body-content :cData="item"
@@ -30,6 +31,10 @@
 	export default class Home extends Vue {
 		contentData: Array < object > = [];
 		$api: any;
+		
+		launchAppError(e) {
+			console.log(e.detail.errMsg)
+		}
 
 		onLoad() {
 			const THAT = this;

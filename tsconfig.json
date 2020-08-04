@@ -14,11 +14,6 @@
     "sourceMap": true, // 是否包含可以用于 debug 的 sourceMap 
     "noImplicitThis": true, // 忽略 this 的类型检查, Raise error on this expressions with an implied any type.
     "pretty": true, // 给错误和消息设置样式，使用颜色和上下文。
-    "types": [
-      "webpack-env",
-      "mocha",
-      "chai"
-    ], // 设置引入的定义文件
     "lib": [
       "esnext",
       "dom",
