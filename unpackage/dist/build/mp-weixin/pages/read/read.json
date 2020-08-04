@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {
-    "u-parse": "/components/gaoyia-parse/parse"
-  }
-}
